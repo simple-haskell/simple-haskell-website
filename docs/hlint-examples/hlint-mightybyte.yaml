@@ -1,0 +1,42 @@
+# HLint configuration file
+
+#####################################################################
+## RESTRICTIONS
+
+- extensions:
+  - default: false
+  - name:
+    - ApplicativeDo
+    - AutoDeriveTypeable
+    - BangPatterns
+    - Cpp
+    - DeriveDataTypeable
+    - DeriveFoldable
+    - DeriveFunctor
+    - DeriveGeneric
+    - DeriveLift
+    - DeriveTraversable
+    - EmptyDataDecls
+    - ExistentialQuantification
+    - ExplicitForAll
+    - FlexibleContexts
+    - FlexibleInstances
+    - ForeignFunctionInterface
+    - GeneralizedNewtypeDeriving
+    - JavaScriptFFI
+    - KindSignatures
+    - LambdaCase
+    - MagicHash
+    - NoMonomorphismRestriction
+    - MultiParamTypeClasses
+    - OverloadedLists
+    - OverloadedStrings
+    - PackageImports
+    - PartialTypeSignatures
+    - RankNTypes
+    - ScopedTypeVariables
+    - StandaloneDeriving
+    - TupleSections
+    - TypeApplications
+    - UnboxedTuples
+    - ViewPatterns
