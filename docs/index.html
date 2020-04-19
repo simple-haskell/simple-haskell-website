@@ -20,6 +20,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   </head>
   <body class="is-preload">
@@ -61,7 +62,7 @@
                     delivering software on time and under budget is to keep it
                     simple.  We still have yet to fully leverage the value
                     that Haskell98 has to offer through features like:</p>
-                    <ul>
+                    <ul class="lang-features">
                       <li>Pure Functions</li>
                       <li>Sum and Product Types</li>
                       <li>Type Classes</li>
@@ -81,16 +82,16 @@
                   Here are some general heuristics to use in assessing things.</p>
                 </header>
 
-                <div class="row">
-                  <div class="col-4 col-8-medium">
-                    <h2>Accessibility</h2>
+                <div class="row philosophy">
+                  <div class="philosophy__item">
+                    <h3>Accessibility</h3>
                     <p>Commercial software is a team endeavor. Fancy Haskell
                     is costly to teams because it usually takes more time to
                     understand and limits the pool of people who can
-                    effectively.</p>
+                    effectively contribute.</p>
                   </div>
-                  <div class="col-4 col-8-medium">
-                    <h2>Maturity</h2>
+                  <div class="philosophy__item">
+                    <h3>Maturity</h3>
                     <p>Things that have been around longer will be more
                     well-tested and understood by a larger group of people.
                     Prefer tried and true techniques over the latest shiny
@@ -99,8 +100,8 @@
                     should be about adopting new versions or approaches to
                     that thing.</p>
                   </div>
-                  <div class="col-4 col-8-medium">
-                    <h2>Leaking Complexity</h2>
+                  <div class="philosophy__item">
+                    <h3>Leaking Complexity</h3>
                     <p>If you adopt a new thing, how much of its complexity
                     will spread throughout the rest of your codebase?  You
                     should be more hesitant to adopt something if its
@@ -203,24 +204,18 @@
 
                 <h3>Add the Simple Haskell badge to your online profiles</h3>
 
-                <dl>
-                <dt>Markdown:</dt>
-                <dd>
-                <pre>
+                <h4>Markdown:</h4>
+                <pre style="overflow-x: scroll;">
 [![Simple Haskell](https://www.simplehaskell.org/badges/badge.svg)](https://www.simplehaskell.org)
                 </pre>
-                </dd>
 
-                <dt>HTML:</dt>
-                <dd>
-                <pre>
+                <h4>HTML:</h4>
+                <pre style="overflow-x: scroll;">
 &lt;a href="https://www.simplehaskell.org"&gt;&lt;img src="https://www.simplehaskell.org/badges/badge.svg" /&gt;&lt;/a&gt;
                 </pre>
-                </dd>
-                </dl>
 
                 <h3>Share Simple Haskell on Social Media</h3>
-                <ul class="actions special">
+                <ul class="fixed actions special">
                   <li><a href="https://twitter.com/intent/tweet?text=http%3A//simplehaskell.org" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
                   <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//simplehaskell.org" class="icon brands fa-facebook alt"><span class="label">Facebook</span></a></li>
                   <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//simplehaskell.org&title=Deliver%20software%20on%20time%20and%20under%20budget%20with%20Simple%20Haskell&summary=&source=" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>

@@ -1,0 +1,26 @@
+.philosophy {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 980px) {
+  ul.lang-features {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul.lang-features li{
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .philosophy {
+    flex-direction: column;
+  }
+}
+
+.philosophy .philosophy__item {
+  flex-basis: 0;
+  flex-grow: 1;
+}
